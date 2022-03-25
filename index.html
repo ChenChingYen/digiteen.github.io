@@ -2,8 +2,9 @@
     <head>
         <title>Digiteen</title>
         <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="web-icon.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index-css.css">
+        <link rel="icon" href="icons/web-icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <script src="https://kit.fontawesome.com/e4995ec024.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
@@ -14,7 +15,7 @@
                 <div class="close-message-btn"><i class="fa-solid fa-circle-xmark"></i></div>
                 <div class="message-center">
                     <div class="message-img">
-                        <img src="logo3.png" alt="digiteen">
+                        <img src="icons/logo3.png" alt="digiteen">
                     </div>
                     <div class="message-text">
                         <div>Follow us on:</div>
@@ -32,7 +33,7 @@
         <nav class="nav-bar">
             <div class="nav-center">
                 <div class="logo">
-                    <img src="logo3.png" alt="logo">
+                    <img src="icons/logo3.png" alt="logo">
                 </div>
                 <!-- <div class="burger-icon">=</div> -->
                 <div class="nav-links">
@@ -77,8 +78,73 @@
         </div>
         <!-- content -->
         <div class="content-wrapper">
-            <div class="content-center">
-                <div class="content">
+            <div class="slide section" id="slide">
+                <div class="slide-wrapper section-center">
+                    slide
+                </div>
+                <div class="shortcutkey section-center">
+                    shortcutkey
+                </div>
+            </div>
+            <div class="announcement section" id="announcement">
+                <div class="announcement-wrapper section-center">
+                    <div>
+                        <div class="title"><h1>ANNOUNCEMENT</h1></div>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsorship section" id="sponsorship">
+                <div class="sponsorship-wrapper section-center">
+                    <div>
+                        <!-- sponsorship -->
+                        <div class="title"><h1>SPONSORED BY</h1></div>
+                        <div>
+                            <img src="index-assets/sponsorships.png" alt="sponsorships" class="sponsorship-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline section" id="timeline">
+                <div class="timeline-wrapper section-center">
+                    <div>
+                        <div class="title"><h1>TIMELINE</h1></div>
+                        <div class="event-row">
+                            <div class="event-date">4 APRIL 2022</div>
+                            <div class="event-description">ICE BREAKING</div>
+                        </div>
+                        <div class="event-row">
+                            <div class="event-date">5 APRIL 2022</div>
+                            <div class="event-description">GAMES</div>
+                        </div>
+                        <div class="event-row">
+                            <div class="event-date">6 APRIL 2022</div>
+                            <div class="event-description">COMPETITION</div>
+                        </div>
+                        <div class="event-row">
+                            <div class="event-date">7 APRIL 2022</div>
+                            <div class="event-description">PROGRAMMING TALK</div>
+                        </div>
+                        <div class="event-row">
+                            <div class="event-date">8 APRIL 2022</div>
+                            <div class="event-description">HISTORY OF COMPUTER</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="registration section" id="registration">
+                <div class="registration-wrapper section-center">
+                    <div class="registration-bg-cover">
+                        <div class="title"><h1>REGISTRATION</h1></div>
+                        <div class="registration-logo-wrapper">
+                            <img src="icons/logo3-white.png" alt="digiteen" class="registration-logo">
+                        </div>
+                        <div class="registration-text">
+                            Lorem ipsum dolor sit amet. Eum itaque nihil a dicta architecto sed doloribus quis in enim illum. Aut consequatur saepe sit enim culpa est odio voluptatem non illum itaque. Hic consectetur quis ea molestias iste ea voluptate voluptas ea nemo nisi.
+                        </div>
+                        <div class="register-btn-wrapper">
+                            <a>REGISTER NOW</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -87,16 +153,16 @@
                 <div class="footer-center">
                     <div class="footer-top">
                         <div>
-                            <img src="logo3-white.png" alt="digiteen" class="footer-logo">
+                            <img src="icons/logo3-white.png" alt="digiteen" class="footer-logo">
                             <br>
                             Unraveling the Bits
                         </div>
                         <div>
                             <ul>
-                                <li><a href="#">Announcement</a></li>
-                                <li><a href="#">Sponsorship</a></li>
-                                <li><a href="#">Timeline</a></li>
-                                <li><a href="#">Registration</a></li>
+                                <li><a href="#announcement">Announcement</a></li>
+                                <li><a href="#sponsorship">Sponsorship</a></li>
+                                <li><a href="#timeline">Timeline</a></li>
+                                <li><a href="#googleform">Registration</a></li>
                             </ul>
                         </div>
                         <div>
@@ -126,7 +192,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="copyright">&copy;Copyright. All Right Reserved.</div>
+                    <div class="copyright">&copy;Copyright. All Rights Reserved.</div>
                 </div>
             </div>
         </footer>

@@ -1,0 +1,88 @@
+.slide-wrapper{
+    /* height: 400px; */
+    background-color: yellow;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sponsorship-wrapper{
+    background-color: white;
+}
+
+.sponsorship-img{
+    width: 50vw;
+}
+
+/* timeline */
+.event-row{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: white;
+}
+.event-row div{
+    padding: 20px;
+}
+.event-description{
+    margin-left: 10px;
+}
+.event-date{
+    border-right: 2px solid #a6a6a6;
+    min-width: 153px;
+}
+
+/* registration */
+.registration-wrapper{
+    /* background-color: aliceblue; */
+    background-image: url("test-gif.gif");
+    z-index: -1;
+}
+
+.registration-bg-cover{
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    color: white;
+}
+
+.registration-logo{
+    height: 80px;
+}
+
+.registration-logo-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.registration-text{
+    text-align: center;
+    width: 50vw;
+    margin: 20px 0;
+}
+
+.register-btn-wrapper{
+    padding: 30px;
+    text-align: center;
+}
+
+.register-btn-wrapper a{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.register-btn-wrapper a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+    .sponsorship-img{
+        width: 80vw;
+    }
+}
