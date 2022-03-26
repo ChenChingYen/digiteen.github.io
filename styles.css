@@ -294,6 +294,9 @@ ul li{
 }
 
 @media screen and (max-width: 680px) {
+    .section-center{
+        padding: 80px 10px;
+    }
     .nav-links{
         display: none;
     }

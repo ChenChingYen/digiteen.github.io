@@ -131,3 +131,27 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .title{
+        font-size: 10px;
+    }
+    .course-detail-text{
+        margin: 0 40px;
+        font-size: 12px;
+    }
+    .tab-btn{
+        font-size: 10px;
+    }
+    .content h4, p{
+        font-size: 12px;
+    }
+    .cover-text{
+        width: 80vw;
+        height: 60vh;
+    }
+    .img-wrapper img{
+        width: 80vw;
+        height: 60vh;
+    }
+}

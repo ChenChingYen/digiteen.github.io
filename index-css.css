@@ -31,14 +31,17 @@
     border-right: 2px solid #a6a6a6;
     min-width: 153px;
 }
-.up-btn{
-    font-size: 20px;
-    color: #a6a6a6;
-}
 .down-btn{
+    display: none;
+}
+.up-btn{
+    display: flex;
+    align-items: center;
+}
+.up-btn, .down-btn{
+    height: inherit;
     font-size: 20px;
     color: #a6a6a6;
-    display: none;
 }
 .up-btn:hover, .down-btn:hover{
     color: black;
@@ -124,6 +127,29 @@
         width: 70vw;
     }
     .event-date, .event-description{
+        font-size: 16px;
+    }
+    .event-header{
+        display: grid;
+        grid-template-columns: 2fr 5fr 0.4fr;
+    }
+    .event-header div{
+        padding: 18px;
+    }
+    .event-description{
+        margin-left: 6px;
+    }
+    .event-date{
+        border-right: 2px solid #a6a6a6;
+        min-width: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .event-date, .event-description{
         font-size: 14px;
+    }
+    .title{
+        font-size: 10px;
     }
 }
