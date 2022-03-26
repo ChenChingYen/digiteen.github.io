@@ -4,6 +4,50 @@
     letter-spacing: 2px;
 }
 
+.hero{
+    background-image: url("test3-gif.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.hero-wrapper{
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    font-family: "Copperplate Gothic Light", sans-serif;
+}
+
+.hero-title{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+    color: aqua;
+}
+
+.hero-wrapper div{
+    width: 80vw;
+}
+
+.lmbtn-wrapper{
+    margin: 180px 0;
+}
+
+.lmbtn{
+    border: 1px solid pink;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    width: auto;
+    font-weight: 800;
+}
+
+.lmbtn:hover{
+    letter-spacing: 5px;
+    transition: 0.3s ease-in;
+    background-color: rgba(252, 174, 204, 0.4);
+}
+
 .sponsorship-wrapper{
     background-color: white;
 }
@@ -153,5 +197,14 @@
     }
     .title{
         font-size: 10px;
+    }
+    .hero-title{
+        font-size: 14px;
+    }
+    .hero-wrapper div h4{
+        font-size: 14px;
+    }
+    .lmbtn-wrapper{
+        margin: 120px 0;
     }
 }
