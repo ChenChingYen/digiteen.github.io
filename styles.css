@@ -360,3 +360,10 @@ ul li{
         width: 40vw;
     }
 }
+
+.selected-nav-link{
+    border-bottom: 2px solid #222;
+}
+.selected-mob-link a img, .selected-mob-link a div{
+    opacity: 40% !important;
+}

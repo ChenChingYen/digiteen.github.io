@@ -1,11 +1,7 @@
-.slide-wrapper{
-    /* height: 400px; */
-    background-color: yellow;
-}
-
 .title{
     text-align: center;
     margin-bottom: 20px;
+    letter-spacing: 2px;
 }
 
 .sponsorship-wrapper{
@@ -17,14 +13,15 @@
 }
 
 /* timeline */
-.event-row{
+.event-header{
     margin-top: 20px;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 3fr 0.1fr;
     background-color: white;
+    border-radius: 10px;
 }
-.event-row div{
+.event-header div{
     padding: 20px;
 }
 .event-description{
@@ -34,17 +31,46 @@
     border-right: 2px solid #a6a6a6;
     min-width: 153px;
 }
+.up-btn{
+    font-size: 20px;
+    color: #a6a6a6;
+}
+.down-btn{
+    font-size: 20px;
+    color: #a6a6a6;
+    display: none;
+}
+.up-btn:hover, .down-btn:hover{
+    color: black;
+}
+.show-event .up-btn{
+    display: none;
+}
+.show-event .down-btn{
+    display: block;
+}
+.event-content{
+    display: none;
+    background-color: white;
+    padding: 20px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+/* .event-content ul{} */
+.show-event .event-content{
+    display: block;
+    border-top: 2px solid #a6a6a6;
+}
 
 /* registration */
 .registration-wrapper{
     /* background-color: aliceblue; */
     background-image: url("test-gif.gif");
-    z-index: -1;
 }
 
 .registration-bg-cover{
     background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1;
     color: white;
 }
 
@@ -61,6 +87,8 @@
     text-align: center;
     width: 50vw;
     margin: 20px 0;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .register-btn-wrapper{
@@ -79,10 +107,23 @@
     color: black;
     transition: 0.3s ease-in;
     cursor: pointer;
+    padding: 10px 30px;
 }
 
 @media screen and (max-width: 680px) {
     .sponsorship-img{
         width: 80vw;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .sponsorship-img{
+        width: 100%;
+    }
+    .registration-text{
+        width: 70vw;
+    }
+    .event-date, .event-description{
+        font-size: 14px;
     }
 }

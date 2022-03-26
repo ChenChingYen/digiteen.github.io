@@ -1,0 +1,232 @@
+<html>
+    <head>
+        <title>Digiteen</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="course-detail-css.css">
+        <link rel="icon" href="icons/web-icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <script src="https://kit.fontawesome.com/e4995ec024.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- contact-message -->
+        <div class="message-wrapper">
+            <div class="message">
+                <div class="close-message-btn"><i class="fa-solid fa-circle-xmark"></i></div>
+                <div class="message-center">
+                    <div class="message-img">
+                        <img src="icons/logo3.png" alt="digiteen">
+                    </div>
+                    <div class="message-text">
+                        <div>Follow us on:</div>
+                        <ul class="contact">
+                            <li id="facebook"><a href="#fb" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
+                            <li id="instagram"><a href="#insta" target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
+                            <li id="linkedin"><a href="#lin" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li id="github"><a href="#git" target="_blank"><i class="fa-brands fa-github-square"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navigation bar -->
+        <nav class="nav-bar">
+            <div class="nav-center">
+                <div class="logo">
+                    <img src="icons/logo3.png" alt="logo">
+                </div>
+                <!-- <div class="burger-icon">=</div> -->
+                <div class="nav-links">
+                    <ul class="links">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#course-detail" class="selected-nav-link">Course</a></li>
+                        <li><a href="./competition-html.html">Competition</a></li>
+                        <li><a href="./about-us-html.html">About Us</a></li>
+                        <li><a href="./faq-html.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="contact-us-btn-wrapper">
+                    <a href="#contact-us"class="contact-us-btn">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+        <div class="mobile-links">
+            <div class="links-style">
+                <ul class="mob-links-items">
+                    <li><a href="./index.html">
+                        <img src="icons/home.png" alt="home">
+                        <div>Home</div>
+                    </a></li>
+                    <li class="selected-mob-link"><a href="#course-detail">
+                        <img src="icons/book.png" alt="course detail">
+                        <div>Course</div>
+                    </a></li>
+                    <li><a href="./competition-html.html">
+                        <img src="icons/trophy.png" alt="competition">
+                        <div>Competition</div>
+                    </a></li>
+                    <li><a href="./about-us-html.html">
+                        <img src="icons/info-button.png" alt="about us">
+                        <div>About Us</div>
+                    </a></li>
+                    <li><a href="./faq-html.html">
+                        <img src="icons/question.png" alt="FAQ">
+                        <div>FAQ</div>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="content-wrapper">
+            <div class="course-detail section" id="course-detail">
+                <div class="course-detail-wrapper section-center">
+                    <div>
+                        <div class="title"><h1>COURSE DETAIL</h1></div>
+                        <p class="course-detail-text">
+                            Lorem ipsum dolor sit amet. Ea magnam numquam vel molestiae neque est
+                            optio debitis sed nostrum nemo. Explicabo laboriosam in consequuntur
+                            exercitationem aut enim odit. Aut voluptatum harum est eveniet nulla 33
+                            voluptatum quibusdam est dolores dolore 33 laudantium quis sed libero
+                            voluptatem. In perspiciatis expedita et amet tenetur At minima incidunt
+                            cum corporis eius ex iure dolorem eum minus suscipit.
+                        </p>
+                        <div class="register-btn-wrapper">
+                            <a>REGISTER NOW</a>
+                        </div>
+                        <div class="about-courses-wrapper">
+                            <article class="about-courses">
+                                <!-- btn container -->
+                                <div class="tab-btn-container">
+                                    <button class="tab-btn active" data-id="course1">cooking</button>
+                                    <button class="tab-btn" data-id="course2">programming</button>
+                                    <button class="tab-btn" data-id="course3">bit</button>
+                                    <button class="tab-btn" data-id="course4">data</button>
+                                </div>
+                                <div class="course-content">
+                                    <div class="content active" id="course1">
+                                        <h4>cooking</h4>
+                                        <p>
+                                            Course 1 : Learn how to cook spagetti.
+                                        </p>
+                                    </div>
+                                    <div class="content" id="course2">
+                                        <h4>programming</h4>
+                                        <p>
+                                            Course 2 : About programming language.
+                                        </p>
+                                    </div>
+                                    <div class="content" id="course3">
+                                        <h4>bits</h4>
+                                        <p>
+                                            Course 3 : How computer works?
+                                        </p>
+                                    </div>
+                                    <div class="content" id="course4">
+                                        <h4>data</h4>
+                                        <p>
+                                            Course 4 : What is data?
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery section" id="gallery">
+                <div class="gallery-wrapper section-center">
+                    <div>
+                        <div class="title"><h1>GALLERY</h1></div>
+                        <div class="gallery-imgs">
+                            <div class="img-wrapper">
+                                <div class="cover-text">image description</div>
+                                <img src="https://picsum.photos/400/300?random=1">
+                            </div>
+                            <div class="img-wrapper">
+                                <div class="cover-text">image description</div>
+                                <img src="https://picsum.photos/400/300?random=2">
+                            </div>
+                            <div class="img-wrapper">
+                                <div class="cover-text">image description</div>
+                                <img src="https://picsum.photos/400/300?random=3">
+                            </div>
+                            <div class="img-wrapper">
+                                <div class="cover-text">image description</div>
+                                <img src="https://picsum.photos/400/300?random=4">
+                            </div>
+                            <div class="img-wrapper">
+                                <div class="cover-text">image description</div>
+                                <img src="https://picsum.photos/400/300?random=5">
+                            </div>
+                            <div class="img-wrapper">
+                                <div class="cover-text">image description</div>
+                                <img src="https://picsum.photos/400/300?random=6">
+                            </div>
+                            <div class="img-wrapper">
+                                <div class="cover-text">image description</div>
+                                <img src="https://picsum.photos/400/300?random=7">
+                            </div>
+                            <div class="img-wrapper">
+                                <div class="cover-text">image description</div>
+                                <img src="https://picsum.photos/400/300?random=8">
+                            </div>
+                            <div class="img-wrapper">
+                                <div class="cover-text">image description</div>
+                                <img src="https://picsum.photos/400/300?random=9">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="footer-center">
+                    <div class="footer-top">
+                        <div>
+                            <img src="icons/logo3-white.png" alt="digiteen" class="footer-logo">
+                            <br>
+                            Unraveling the Bits
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="./index.html#announcement">Announcement</a></li>
+                                <li><a href="./index.html#sponsorship">Sponsorship</a></li>
+                                <li><a href="./index.html#timeline">Timeline</a></li>
+                                <li><a href="./index.html#registration">Registration</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="#course-detail">Course Detail</a></li>
+                                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="#">Prize</a></li>
+                                <li><a href="#">Leaderboard</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Meet The Team</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Register Now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer-bottom-wrapper">
+                            <ul class="footer-contact">
+                                <li id="facebook"><a href="#fb" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
+                                <li id="instagram"><a href="#insta" target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
+                                <li id="linkedin"><a href="#lin" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li id="github"><a href="#git" target="_blank"><i class="fa-brands fa-github-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">&copy;Copyright. All Rights Reserved.</div>
+                </div>
+            </div>
+        </footer>
+        <script src="course-detail-js.js"></script>
+    </body>
+</html>
