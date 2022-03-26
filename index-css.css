@@ -50,7 +50,9 @@
     display: none;
 }
 .show-event .down-btn{
-    display: block;
+    height: inherit;
+    display: flex;
+    align-items: center;
 }
 .event-content{
     display: none;
