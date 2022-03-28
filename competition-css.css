@@ -83,4 +83,11 @@
     .title{
         font-size: 10px;
     }
+    .prizes-container div span{
+        font-size: 14px;
+    }
+    .prizes-container div{
+        padding: 20px;
+        display: grid;
+    }
 }
