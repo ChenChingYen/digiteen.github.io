@@ -1,0 +1,86 @@
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.prize-content{
+    text-align: center;
+}
+.prizes-container{
+    text-align: center;
+}
+.prizes-container div{
+    margin: 20px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 0.5fr 5.5fr 2fr;
+    border-radius: 20px;
+}
+.prizes-container div img{
+    height: 50px;
+}
+.prizes-container div span{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.first{
+    /* background-color: #FFD700; */
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+.second{
+    /* background-color: #C0C0C0; */
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+}
+.third{
+    /* background-color: red; */
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+}
+.console{
+    background-color: white;
+}
+
+.leaderboard{
+    background-color: white;
+}
+
+.c-registration-wrapper{
+    text-align: center;
+}
+
+.c-registration-wrapper div div{
+    margin: 20px;
+}
+
+.c-registration-logo{
+    height: 60px;
+}
+
+.c-register-btn-wrapper{
+    padding: 20px;
+}
+
+.c-register-btn-wrapper a{
+    padding: 14px 20px;
+    border: 2px solid black;
+}
+.c-register-btn-wrapper a:hover{
+    color: azure;
+    background-color: black;
+    transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 680px) {
+}
+
+@media screen and (max-width: 520px) {
+}
+
+@media screen and (max-width: 400px) {
+    .title{
+        font-size: 10px;
+    }
+}

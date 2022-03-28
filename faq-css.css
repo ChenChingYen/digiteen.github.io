@@ -1,0 +1,112 @@
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: azure;
+}
+/* timeline */
+.question-header{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.2fr 3fr 0.1fr;
+    color: aliceblue;
+    background: rgba( 225, 192, 232, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.question-header:hover{
+    background: rgba( 225, 192, 232, 0.65 );
+}
+.question-header:hover .up-btn{
+    color: black;
+}
+.show-question .question-header:hover .down-btn{
+    color: black;
+}
+.question-header div{
+    padding: 20px;
+}
+.question-description{
+    margin-right: 50px;
+}
+.down-btn{
+    display: none;
+}
+.up-btn{
+    display: flex;
+    align-items: center;
+}
+.up-btn, .down-btn{
+    height: inherit;
+    font-size: 20px;
+    color: #a6a6a6;
+}
+.up-btn:hover, .down-btn:hover{
+    color: black;
+}
+.show-question .up-btn{
+    display: none;
+}
+.show-question .down-btn{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.question-content{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    padding-left: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+.show-question .question-content{
+    display: block;
+    border-top: 2px solid #ffffff;
+}
+.show-question .question-header{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.faq{
+    background-image: url("faq-bg.jpg");
+}
+.faq-wrapper{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 520px) {
+    .question-num, .question-description{
+        font-size: 16px;
+    }
+    .question-header div{
+        padding: 18px;
+    }
+    .question-description{
+        margin-right: auto;
+    }
+    .question-content{
+        padding-left: 85px;;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .question-num, .question-description{
+        font-size: 14px;
+    }
+    .question-content{
+        font-size: 14px;
+        padding-left: 80px;;
+    }
+    .title{
+        font-size: 10px;
+    }
+}

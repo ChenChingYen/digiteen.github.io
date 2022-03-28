@@ -1,0 +1,99 @@
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.meet-the-team-title{
+    color: aliceblue ;
+}
+.about-us-content{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 50vw;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.about-us{
+    background-image: url("about-us-bg.jpg");
+    background-size: cover;
+}
+.about-us-wrapper{
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+}
+.about-us div{
+    padding: 50px;
+}
+.member-align{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.member-wrapper img{
+    height: 170px;
+}
+.member-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1vw;
+    padding: 20px 16px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.712);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );   
+}
+.member-wrapper:hover{
+    background: rgba(255, 255, 255, 0.812);
+    transition: 0.2s ease-in;
+}
+.member-info{
+    /* padding: 50px 2vw; */
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.meet-the-team{
+    background-image: url("team-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.meet-the-team-wrapper{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.member-name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+@media screen and (max-width: 900px) {
+    .member-align{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .about-us-content{
+        width: 80vw;
+        margin-bottom: 80px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .about-us div{
+        padding: 30px;
+    }
+    .member-align{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-us div{
+        padding: 26px;
+    }
+    .member-wrapper img{
+        height: 140px;
+    }
+}
