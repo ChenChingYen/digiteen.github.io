@@ -94,6 +94,9 @@
         padding: 26px;
     }
     .member-wrapper img{
-        height: 140px;
+        height: 120px;
+    }
+    .member-info{
+        margin-left: 20px;
     }
 }
