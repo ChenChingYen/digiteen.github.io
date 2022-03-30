@@ -22,10 +22,10 @@
     background: rgba( 225, 192, 232, 0.65 );
 }
 .question-header:hover .up-btn{
-    color: black;
+    color: white;
 }
 .show-question .question-header:hover .down-btn{
-    color: black;
+    color: white;
 }
 .question-header div{
     padding: 20px;
@@ -45,9 +45,9 @@
     font-size: 20px;
     color: #a6a6a6;
 }
-.up-btn:hover, .down-btn:hover{
+/* .up-btn:hover, .down-btn:hover{
     color: black;
-}
+} */
 .show-question .up-btn{
     display: none;
 }
@@ -58,7 +58,9 @@
 }
 .question-content{
     display: none;
-    background-color: rgba(255, 255, 255, 0.7);
+    color: aliceblue;
+    background: rgba( 225, 192, 232, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     padding: 20px;
     padding-left: 90px;
     border-bottom-left-radius: 10px;

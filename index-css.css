@@ -49,6 +49,10 @@
     background-color: rgba(252, 174, 204, 0.4);
 }
 
+.announcement-img{
+    width: 60vw;
+}
+
 .sponsorship-wrapper{
     background-color: white;
 }
@@ -209,6 +213,9 @@
 
 @media screen and (max-width: 520px) {
     .sponsorship-img{
+        width: 100%;
+    }
+    .announcement-img{
         width: 100%;
     }
     .registration-text{

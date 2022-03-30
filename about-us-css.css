@@ -26,6 +26,15 @@
 .about-us div{
     padding: 50px;
 }
+.about-us-wrapper>div{
+    color: rgb(24, 24, 24);
+    background: rgba(206, 192, 232, 0.466);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 30px;
+}
+.about-us-wrapper>div:hover{
+    background: rgba(206, 192, 232, 0.666);
+}
 .member-align{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -90,6 +99,11 @@
 }
 
 @media screen and (max-width: 400px) {
+    .about-us-content{
+        font-size: 16px;
+        margin-bottom: 60px;
+        margin-top: 5px;
+    }
     .about-us div{
         padding: 26px;
     }
